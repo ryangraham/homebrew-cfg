@@ -9,5 +9,5 @@ matrix:
 
 script:
   - uname -a ; sw_vers ; $CXX --version
-  - brew install ./csv.rb
-  - brew test ./csv.rb
+  - brew install ./cfg.rb
+  - brew test ./cfg.rb
