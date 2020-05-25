@@ -1,0 +1,13 @@
+language: cpp
+
+sudo: false
+
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode11.4
+
+script:
+  - uname -a ; sw_vers ; $CXX --version
+  - brew install ./csv.rb
+  - brew test ./csv.rb
