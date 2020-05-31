@@ -3,10 +3,10 @@
 class Cfg < Formula
   desc 'INI config file parser for C++'
   homepage 'https://github.com/ryangraham/cfg'
-  url 'https://github.com/ryangraham/cfg/archive/v0.0.1-db1bdbe.tar.gz'
-  sha256 '99effddbd4c37f3ebf07952e801ad7f3c60b1e33118409e0bae6f930d4e77360'
+  url 'https://github.com/ryangraham/cfg/archive/v0.0.2.tar.gz'
+  sha256 'dfda5c4e0a33b9b33914a147625be6de34cbbf966d303e370b083c0868dfc11f'
   head 'https://github.com/ryangraham/cfg.git', branch: 'master'
-  version '0.0.1'
+  version '0.0.2'
 
   depends_on 'cmake'
   depends_on 'range-v3'
